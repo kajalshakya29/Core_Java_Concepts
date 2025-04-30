@@ -1,0 +1,18 @@
+public class Div_Blc
+{
+	float i , j , k;
+	public Div_Blc(float i ,float j)
+	{
+		this.i = i;
+		this.j = j;
+	}
+	public int div()
+	{
+		k = i/j;
+		return k;
+	}
+	public void show()
+	{
+		System.out.println(k);
+	}
+}

@@ -1,0 +1,21 @@
+public class  Parameter
+{
+	int i ;
+	int j ;
+	public Parameter(int i , int j)
+	{
+		this.i = i;
+		this.j = j;
+	}
+	public int sum()
+	{
+		int k;
+		k = i + j;
+		return k;
+	}
+	public void show()
+	{
+		//System.out.println(i+ "        "+j);
+		System.out.println(k);
+	}
+}
