@@ -1,0 +1,11 @@
+public class M2
+{
+	public static void main(String[] args)
+	{
+		Multiply_Constructor m1= new Multiply_Constructor(45,65);
+		//M1 m = new M1();
+		m1.multiply();
+		m1.show();
+	
+	}
+}
