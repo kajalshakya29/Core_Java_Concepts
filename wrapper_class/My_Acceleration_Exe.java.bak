@@ -1,0 +1,14 @@
+public class My_Acceleration_Exe
+{
+	public static void main(String[] args)
+	{
+		int u1 = Integer.parseInt(args[0]);
+		int v1 = Integer.parseInt(args[1]);
+		int t1 = Integer.parseInt(args[2]);
+		My_Acceleration a1 = new My_Acceleration();
+		a1.assign(u1,v1,t1);
+		int result = a1.calc();
+		System.out.println(result);
+		
+	}
+}	

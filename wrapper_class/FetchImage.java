@@ -1,0 +1,37 @@
+
+import java.sql.*;
+
+//import oracle.sql.BLOB;
+
+import java.io.*;
+
+public class FetchImage 
+{
+	public static void main(String[] args) throws Exception
+	{
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		Connection conn=DriverManager.getConnection("jdbc:oracle:thin:kajal/kajal@localhost:1521:XE","System","system");
+		String query="select *from kajal.InsertImage where img=110";
+		Statement st = conn.createStatement();
+		//st.setInt(1, 110);
+		ResultSet rs = st.executeQuery(query);
+		while(rs.next())
+			{
+				String id=rs.getString(1);
+				
+				FileInputStream fis = (FileInputStream)rs.getBinaryStream(2);
+				FileOutputStream fos = new FileOutputStream("D:\\images.jpg");
+				int b=0;
+				while((b=fis.read())!=-1)
+				{
+					fos.write(b);
+				}
+			}
+		}
+		
+
+	//private static FileOutputStream FileOutputStream(String string) {
+		// TODO Auto-generated method stub
+		//return null;
+	}
+

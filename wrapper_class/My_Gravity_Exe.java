@@ -1,0 +1,15 @@
+public class My_Gravity_Exe
+{
+	public static void main(String[] args)
+	{
+		int num1 = Integer.parseInt(args[0]);
+		int num2 = Integer.parseInt(args[1]);
+		int num3 = Integer.parseInt(args[2]);
+		int num4 = Integer.parseInt(args[3]);
+		int num5 = Integer.parseInt(args[4]);
+		My_Gravity_Blc g1 = new My_Gravity_Blc();
+		g1.assign(num1,num2,num3,num4,num5);
+		float result = g1.calc();
+		System.out.println(result);
+	}
+}

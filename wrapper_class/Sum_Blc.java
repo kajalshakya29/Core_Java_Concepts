@@ -1,0 +1,7 @@
+public class Sum_Blc
+{
+	public void s1(Sum s)
+	{
+		s.sum(10,20);
+	}
+}

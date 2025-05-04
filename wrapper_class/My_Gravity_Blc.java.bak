@@ -1,0 +1,22 @@
+public class My_Gravity_Blc
+{
+	int f,a,m1,m2,r;
+	float g;
+	public void assign(int f, int a, int m1, int m2, int r)
+	{
+		this.f = f;
+		this.a = a;
+		this.m1 = m1;
+		this.m2 = m2;
+		this.r = r;
+	}
+	public float calc();
+	{
+		g = (f*a*m1*m2)/(r*r);
+		return g;
+	}
+	public void show()
+	{
+		System.out.println(g);
+	}	
+}

@@ -1,0 +1,12 @@
+public class My_Subtract_Exe
+{
+	public static void main(String[] args)
+	{
+		int num1 = Integer.parseInt(args[0]);
+		int num2 = Integer.parseInt(args[1]);
+		My_Subtract s1 = new My_Subtract();
+		s1.assign(num1,num2);
+		s1.calc();
+		s1.show();
+	}
+}
