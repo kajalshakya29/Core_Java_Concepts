@@ -1,2 +1,0 @@
-dept = HR
-city = NYC
