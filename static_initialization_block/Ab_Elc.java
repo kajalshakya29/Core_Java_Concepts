@@ -1,0 +1,12 @@
+public class Ab_Elc extends Ab
+{
+	//System.out.println("It is the execution class of Aa class ");
+	
+	public static void main(String[] args)
+	{
+		System.out.println("It is the execution class of Aa class ");
+		Ab a = new Ab();
+		a.assign(10,30);
+		System.out.println("Done, Thank you");
+	}
+}
