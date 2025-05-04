@@ -1,0 +1,8 @@
+public class My_Tension_Exe
+{
+	public static void main(String[] args)
+	{
+		My_Tension t1 = new My_Tension();
+		t1.cal();
+	}
+}

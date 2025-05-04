@@ -1,0 +1,7 @@
+public class My_Gravity
+{
+	public void cal(int f,int a,int m1,int m2,int r)
+	int g;
+	g = (f*a*m1*m1*m2)/(r*r);
+	System.out.println("Gravity = " + g);
+}

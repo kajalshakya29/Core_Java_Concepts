@@ -1,0 +1,8 @@
+public class Slope_Exe
+{
+	public static void amin(String[] args)
+	{
+		Slope s = new Slope();
+		s.cal(10,2,4);
+	}
+}
