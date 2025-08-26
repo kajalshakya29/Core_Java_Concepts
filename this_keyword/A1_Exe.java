@@ -1,0 +1,9 @@
+public class A1_Exe
+{
+	public static void main(String[] args)
+	{
+	A1 a = new A1();
+	a.assign(10,20);
+	a.show();
+	}
+}
