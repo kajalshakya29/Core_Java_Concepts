@@ -24,7 +24,7 @@ OOP Concepts – Demonstrations of encapsulation, abstraction, polymorphism, and
 
 Packages – Custom package creation and usage examples.
 
-Polymorphism – Method overloading, method overriding, and runtime polymorphism examples.
+Polymorphism – Method overloading, method overriding, and runtime polymorphism examples. 
 
 Strings – String operations, StringBuffer, and StringBuilder examples.
 
