@@ -1,4 +1,4 @@
-📘 Core Java Concepts
+## 📘 Core Java Concepts
 
 This repository contains examples and practice programs for various Core Java concepts. Each folder covers a specific topic with simple .java files to understand the concept in depth.
 
