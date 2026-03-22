@@ -1,0 +1,7 @@
+public class Subtract_Pass_Blc
+{
+	public void s1(Subtract_Pass  s2)
+	{
+		//s2.subtract(10,3);
+	}
+}

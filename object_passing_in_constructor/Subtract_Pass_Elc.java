@@ -1,0 +1,10 @@
+public class Subtract_Pass_Elc
+{
+	public static void main(String[] args)
+	{
+		Subtract_Pass_Blc s3 = new Subtract_Pass_Blc();
+		Subtract_Pass a = new Subtract_Pass();
+		a.subtract(10,3);
+		s3.s1(a);
+	}
+}
